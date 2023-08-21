@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: lightpink;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+.navigation a {
+color:lightpink;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+}
+.navigation a:hover{
+    color: crimson;
+
+}
+section{
+    padding: 100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/background.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+.main h2{
+    color: crimson;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: crimson;
+    font-size: 3em;
+    font-weight: 600;
+
+}
+.main h3{
+    color: #741717;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn:hover{
+    background-color: #741717;
+    transform: scale(1.1);
+}
+.footer {
+    background-color:aliceblue;
+    color: #741717;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons a {
+    color:crimson ;
+    font-size: 1.7em;
+    padding-right: 30px;
+    padding-left:30px ;
+}
+.footer-title span {
+    color:#741717;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+.container-body-text-general {
+    width: 30%;
+    background-color: transparent; 
+    position :absolute;
+    top: 37%;
+    left: 55%;
+    min-width: 190px;
+    text-align: center;
+    display: flex;
+    box-shadow: 0 4px 9px rgb(91 91 91 / 100%);
+}
+.fa-brands-img {
+    column-gap: 10%;
+    position :absolute;
+    top: 41%;
+    left: 70%;
+    background-color: transparent; 
+    display: flex;
+}
+.fa-brands-img .fa-brands{
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    background-color: transparent; 
+
+}
+.minus-plus {
+    row-gap: 30%;
+    position :absolute;
+    top: 22%;
+    left: 3%;
+    display: grid;
+    background-color: transparent; 
+}
+.minus-plus i{
+    color:crimson;
+    font-size: 30px;
+    background-color: transparent; 
+
+}
+.container-body-text {
+    width: 87%;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    
+    text-align: center;
+    box-shadow: 0 4px 9px rgb(91 91 91 / 100%);
+}
+
+.container-body-text-1 {
+    margin-bottom: 20px;    
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif; 
+      
+}
+.container-body-text-2 {
+    margin-bottom: 20px;  
+    text-align: left;  
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.container-body-text-3 {
+    text-align: left;  
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+.container-body-1 {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.one,.two ,.tree {
+    display: grid;
+    margin: auto;
+    width: calc(80% /3);
+    height: 65%;
+    align-items: center;
+    padding: 20px 5px 5px 10px ;
+    min-width: 220px;
+    box-shadow: 0 4px 9px rgb(91 91 91 / 40%);
+    margin-top: 20px;
+}
+
+.one h3{
+    font-family:  Arial;
+    width: 100%;
+}
+.one p{
+    font-family:  Arial;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: 500;
+}
+.button-one {
+    padding: 10px;
+    background-color:crimson;
+    color: #ffffff;
+    height: 40px;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 3px 9px crimson;
+    cursor: pointer;
+    width: 100px;
+    display: block;
+    font-size: 15px;
+    font-family:  Arial;
+    font-weight: 600;
+    border-radius: 15px;
+
+}
+
+
+
+.button-one:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.button-two {
+    padding: 10px;
+    background-color: crimson;
+    color: #ffffff;
+    height: 50px;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0px 9px #434343;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    top: 30px;
+    margin: auto;    
+    position: relative;
+}
+
+.button-two:hover {
+    background-color: #ffffff;
+    color:crimson;
+}
+
+
+.new1 {
+        border-top: 0.07cm solid lightpink;
+        width: 70%;
+        margin-top: 10px;
+}
+
+.icon {
+    color: lightpink;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    width: 100%;
+    text-align: left;
+    margin-bottom: auto;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-body-1 {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.one,.two ,.tree {
+    display: grid;
+    margin: auto;
+    width: calc(80% /3);
+    height: 65%;
+    align-items: center;
+    padding: 20px 5px 5px 10px ;
+    min-width: 220px;
+    box-shadow: 0 4px 9px rgb(91 91 91 / 40%);
+    margin-top: 20px;
+}
+
+.one h3{
+    font-family:  Arial;
+    width: 100%;
+}
+.one p{
+    font-family:  Arial;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: 500;
+}
+.button-one {
+    padding: 10px;
+    background-color:lightpink;
+    color: #ffffff;
+    height: 40px;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 3px 9px lightpink;
+    cursor: pointer;
+    width: 100px;
+    display: block;
+    font-size: 15px;
+    font-family:  Arial;
+    font-weight: 600;
+}
+
+.button-one:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.button-two {
+    padding: 10px;
+    background-color: lightpink;
+    color: #ffffff;
+    height: 50px;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0px 9px #434343;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    font-size: 15px;
+    font-family:  Arial;
+    font-weight: 600;
+    top: 30px;
+    margin: auto;    
+    position: relative;
+}
+
+.button-two:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+.new1 {
+        border-top: 0.07cm solid lightpink;
+        width: 70%;
+        margin-top: 10px;
+}
+
+.icon {
+    color: lightpink;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    width: 100%;
+    text-align: left;
+    margin-bottom: auto;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
